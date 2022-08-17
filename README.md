@@ -11,6 +11,24 @@ https://starbucks-responsive-landing-page.netlify.app/
 
 <hr>
 
-<h2>✨ Preview</h2>
+<h2>✨ Screenshots:</h2>
+
+![img](https://github.com/Muhammad-Patel/Starbucks-Clone-Responsive-Project-1/blob/main/Utility/s1.png?raw=true)
+
+![img](https://github.com/Muhammad-Patel/Starbucks-Clone-Responsive-Project-1/blob/main/Utility/s2.png?raw=true)
+
+
+![img](https://github.com/Muhammad-Patel/Starbucks-Clone-Responsive-Project-1/blob/main/Utility/s3.png?raw=true)
+
+![img](https://github.com/Muhammad-Patel/Starbucks-Clone-Responsive-Project-1/blob/main/Utility/s4.png?raw=true)
+
+![img](https://github.com/Muhammad-Patel/Starbucks-Clone-Responsive-Project-1/blob/main/Utility/s5.png?raw=true)
+
+![img](https://github.com/Muhammad-Patel/Starbucks-Clone-Responsive-Project-1/blob/main/Utility/s6.png?raw=true)
+
+![img](https://github.com/Muhammad-Patel/Starbucks-Clone-Responsive-Project-1/blob/main/Utility/s7.png?raw=true)
+
+![img](https://github.com/Muhammad-Patel/Starbucks-Clone-Responsive-Project-1/blob/main/Utility/s8.png?raw=true)
+
 
 
