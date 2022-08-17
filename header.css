@@ -1,0 +1,414 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: SoDoSans,'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+
+header{
+    box-shadow: 0 1px 3px rgba(0,0,0,.1),0 2px 2px rgba(0,0,0,.06),0 0 2px rgba(0,0,0,.07);
+    height: 6.3em;
+}
+.header-container{
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 3em;
+    min-width: 450px;
+
+}
+
+.header-img{
+    height: 3.06em;
+}
+
+.header-img img{
+    height:100%;
+}
+.header-r{
+    display: flex;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    margin-left: 2.3em;
+    font-weight: 700;
+}
+nav ul li{
+    margin-right: 2rem;
+}
+.header-l{
+    display: flex;
+    align-items: center;
+}
+header-r nav ul{
+    list-style: none;
+    display: flex;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    font-size: 0.82rem;
+    
+}
+
+.button{
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    font-size: 0.8rem;
+    margin-left: 2.3em;
+}
+
+.button-border{
+    border: 1px solid black;
+    border-radius: 3.9rem;
+    padding: 0.538em 0.9em;
+}
+
+.h-black{
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+}
+.h-store{
+    font-size: 0.9rem;
+}
+
+.hover-green:hover{
+    color: #00754a;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.button-hover-white:hover{
+    background-color: rgba(0,0,0,.06);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.button-hover-black:hover{
+    background-color: rgba(0,0,0,.7);
+    border-color: rgba(0,0,0,.7);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.width-50{
+    width: 50%;
+}
+.width-100{
+    width: 100%;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.b1-main{
+    margin: 2em 0;
+    background-color: #1e3932;
+    width: 100%;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.b1-content{
+    color: white;
+    margin: 2rem 0rem;
+    text-align: center;
+}
+.b1-button{
+    margin-top: 3.4em;
+    padding: 0.5em 1em;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 3.9rem;
+    padding: 0.538em 0.9em;
+}
+.b1-button:hover{
+    background-color: hsla(0,0%,100%,.12);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    
+}
+.b1-img{
+    justify-content: left;
+    padding: 0.12em 0em;
+}
+
+
+@media (max-width: 820px){
+    .change-size{
+        font-size: calc(0.85rem - 0.7vh);
+    }
+    .header-container{
+        flex-direction: column;
+        justify-content: space-around;
+        margin: auto;
+    }
+    header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .b1-main{
+        flex-direction: column;
+    }
+    .b1-img{
+        width: 100%;
+    }
+    .b1-content{
+        width: 100%;
+        margin: 2.5rem;
+    }
+    .b1-img img{
+        width: 100%;
+    }
+}
+
+/* ====================================================== 
+BANNER
+=========================================================*/
+img{
+    vertical-align: bottom;
+}
+.banner{
+    display: flex;
+    margin-bottom: 2em;
+    
+}
+
+.banner-left, .banner-right{
+    width: 50%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+.bg-pink{
+    background-color: #fa91aa;
+}
+
+.banner-img{
+    width: 100%;
+}
+
+.banner-img-container{
+    width: 100%;
+}
+
+.flex-class{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    padding: 3rem 2.8rem;
+    
+}
+
+.banner-heading{
+    font-size: 2.1rem;
+    letter-spacing: 2.6px;
+    line-height: 3.5rem;
+    padding: 0 2em;
+}
+
+.banner-text{
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    line-height: 2.6rem ;
+    font-weight: 500;
+    padding: 0 1em;
+}
+
+.banner-button{
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 0.4em 0.8em;
+    border: 1px solid;
+    border-radius:3.9rem;
+}
+.banner-button:hover{
+    background-color: rgba(30, 57, 50, 0.045);
+    transition: all 0.3s ease;
+    cursor: pointer;
+
+}
+
+.c-green{
+    color:rgb(30, 57, 50);
+    border-color: rgb(30, 57, 50);
+    
+}
+
+/* 
+==========================================
+*/
+
+.bg-t3{
+    background-color: #f06464;
+}
+.c-white{
+    color: white;
+}
+
+.bg-t4{
+    background-color: #d4e9e2;
+}
+.c-mintg{
+    color: #1e3932;
+}
+
+.bg-t5{
+    background-color: #d4e9e2;
+}
+.c-min{
+    color: #1e3932;
+}
+.bg-t6{
+    background-color: #1a3c34;
+}
+.c-dg{
+    color: white;
+}
+.low-size-h{
+    font-size:1.1rem;
+}
+.low-size-t{
+    font-size:1.2rem; 
+}
+
+
+@media (max-width: 820px){
+    .banner{
+        flex-direction: column;
+    }
+    .flex-class{
+        padding: 3rem 1rem;
+    }
+    .banner-img{
+        width: 100%;
+    }
+    .banner-left, .banner-right{
+ 
+        width: 100%;
+    }
+    .banner-left{
+        order: 2;
+    }
+    .banner-right{
+        order: 1;
+    }
+    .banner-heading, .banner-button, .banner-text{
+        font-size: calc(1rem - 0.1vh);
+        line-height: 2rem;
+        margin-bottom: 1.2rem;
+    }
+    .terms-sub{
+        width: 80%;
+    }
+    .bio-text{
+        padding-bottom: 1rem;
+    }
+    .intro{
+        padding-top: 4rem;
+        font-size: 0.9rem;
+    }
+    .bio-text span{
+        font-size: 1.2rem;
+        min-width: 15rem;
+    }
+    .intro{
+        width: 90%;
+    }
+ 
+
+}
+a{
+    color: black;
+}
+.terms-sub{
+    width: 60%;
+    margin: 4rem auto;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.m2{
+    margin: 9rem auto;
+}
+
+/* 
+===========================================================================
+*/
+/* --------------------------------FOOTER---------------------------------- */
+/* 
+===========================================================================
+*/
+
+
+footer{
+    box-shadow: 0 -1px 3px rgba(0,0,0,.1),0 -2px 2px rgba(0,0,0,.06),0 0 2px rgba(0,0,0,.07);
+    height: 19rem;
+}
+
+.links ul{
+    list-style-type: none;
+    text-align: center;
+    margin-bottom: 1.2rem;
+    
+}
+.items{
+    margin-bottom: 1.2rem;
+    font-weight: lighter;
+}
+.links{
+    padding-top: 2rem;
+}
+.items:hover{
+    cursor: pointer;
+}
+
+/* 
+===========================================================================
+*/
+/* --------------------------------BIO---------------------------------- */
+/* 
+===========================================================================
+*/
+
+.bio-logo{
+    margin: 0 auto;
+    padding-top: 1.5rem;
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    height: 4rem;
+}
+.fa-brands{
+    font-size: 2.1rem;
+}
+.bio-text{
+    margin: 1.5rem;
+    height: 2rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-align: center;
+    
+}
+.fa-brands:hover{
+    font-size: 2.5rem;
+    transition: all 0.3s ease;
+}
+.intro{
+    text-align: center;
+    max-width:39rem;
+    margin: 0.3rem auto;
+}
+
