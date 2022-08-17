@@ -39,6 +39,7 @@ nav ul{
     font-weight: 700;
 }
 nav ul li{
+    
     margin-right: 2rem;
 }
 .header-l{
@@ -76,6 +77,11 @@ header-r nav ul{
     font-size: 0.9rem;
 }
 
+nav ul li a:hover{
+    color: #00754a;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
 .hover-green:hover{
     color: #00754a;
     transition: all 0.3s ease;
